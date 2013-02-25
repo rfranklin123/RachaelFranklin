@@ -4,20 +4,24 @@
 
 <head>
 <title>My first web page </title>
+	<link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
 </head>
 	<style>
 	h1 {color: blue; }
 	div#list {color: yellow; }
 	p {background-color: pink; }
 	</style>
-<body> 
+<body>
+<div class="container">
 <div id="title">
 <h1>Hello </h1>
+</div>
 <div id="introduction">
 <h3>This my attempt at writing some html code</h3>
+</div>
 <div id="table">
 <p>Here is a table of animals :) </p>
-	<table>
+	<table class="table">
 	<tbody>
 		<tr>
 			<th>Animal</th>
@@ -28,7 +32,8 @@
 			<td><img src="./Kitten.jpeg"></td>
 		<tr>
 			<td>etc.</td>
-	</table>	
+	</table>
+</div>	
 <p>This paragraph of text is a very fascinating read, and contains a 
 	<a href="./first html page.html">link</a> back to this page.
 </p>
@@ -39,4 +44,7 @@
 		<li>Farewell</li>
 		<li>Adios</li>
 	</ul>
+</div>
+</div>
+</body>
 </html>
